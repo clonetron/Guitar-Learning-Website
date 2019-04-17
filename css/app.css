@@ -1,4 +1,4 @@
-html{
+                                                                                                                                    html{
    scroll-behavior: smooth;
 }
 
@@ -39,10 +39,16 @@ html{
 
 #topbar1 {
    /*   background-color:#600505;*/
-   background-color: brown;
-   font-family: 'Neucha', cursive;
+   background-color: white;
+/*   font-family: 'Neucha', cursive;*/
+/*    font-family: 'Righteous', cursive;*/
+/*    font-family: 'Righteous', cursive;*/
+/*    font-family: 'Quattrocento Sans', sans-serif;*/
+    font-family: 'Khand', sans-serif;
+    
    font-size: 160%;
-   
+    color:brown;
+   /* Michael was here */
 }
 
 #topbar1 a:hover{
@@ -62,7 +68,7 @@ html{
 #div3 {
    padding-bottom: 15px;
    padding-top: 15px;
-   background-color: brown;
+   background-color: white;
 
 }
 
@@ -73,11 +79,11 @@ html{
 }
 
 .part1 {
-   background-image: url("img/1.JPG");
+   background-image: url("img/IMG_6360.JPG");
    height: 75%;
    width: 100%;
    background-size: cover;
-   background-position: 0 -100;
+   background-position: 0 -200;
 }
 
 .part2 {
@@ -100,22 +106,27 @@ html{
   
    position:relative;
    top:30%;
-   margin-left:auto
-   
-   
-   
+   margin-left:auto  
 }
 
 
 .button{
    background-color:brown;
    transition-duration:0.3s;
-   
-   
-   
+   }
 
-   
+.logo1{
+    width:30%;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    top:20%;    
 }
+
+.part1{
+    background-color
+}
+    
 
 
 /*
