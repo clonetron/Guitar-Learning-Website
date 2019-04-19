@@ -1,193 +1,235 @@
-html{
-   scroll-behavior: smooth;
+/*index.html*/
+
+html {
+    scroll-behavior: smooth;
 }
 
 #body {
 
-   /*   background-color: brown;*/
-   /*   background-image:url("img/1.JPG");*/
-   /*   background-size:cover;*/
+    /*   background-color: brown;*/
+    /*   background-image:url("img/1.JPG");*/
+    /*   background-size:cover;*/
 }
 
 #div1 {
-   margin-top: 310px;
-   margin-bottom: 200px;
+    margin-top: 310px;
+    margin-bottom: 200px;
 
 }
 
 #div2 {
-   margin-top: 60px;
+    margin-top: 60px;
 }
 
 .div1 {}
 
 .p {
-   font-size: 500%;
-   margin-left: 10%;
-   margin-right: 10%;
-   font-family: 'Neucha', cursive;
-   text-align: center;
-   color: white;
- 
+    font-size: 500%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Neucha', cursive;
+    text-align: center;
+    color: white;
+
 
 }
 
 
 .p2 {
-   font-size: 200%;
-    margin-left:10%;
-    margin-right:10%;
-    text-align:center;
-    font-family:'Neucha', cursive;
-    color:white;
-    
+    font-size: 200%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-family: 'Neucha', cursive;
+    color: white;
+
 }
 
 #topbar1 {
-   /*   background-color:#600505;*/
-   background-color: darkred;
-/*   font-family: 'Neucha', cursive;*/
-/*    font-family: 'Righteous', cursive;*/
-/*    font-family: 'Righteous', cursive;*/
-/*    font-family: 'Quattrocento Sans', sans-serif;*/
+    /*   background-color:#600505;*/
+    background-color: darkred;
+    /*   font-family: 'Neucha', cursive;*/
+    /*    font-family: 'Righteous', cursive;*/
+    /*    font-family: 'Righteous', cursive;*/
+    /*    font-family: 'Quattrocento Sans', sans-serif;*/
     font-family: 'Khand', sans-serif;
-    
-   font-size: 160%;
-    color:white;
-   
-   
+
+    font-size: 160%;
+    color: white;
+
 }
 
-#topbar1 a:hover{
-   color:#ffd60a;
-   transition-duration:0.3s;
+#topbar1 a:hover {
+    color: #ffd60a;
+    transition-duration: 0.3s;
 }
 
 .name {
-   width: 150px;
-   position: relative;
-   max-width:100%;
-   height:auto;
-   
-   
+    width: 150px;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+
+
 }
 
 
 
 #div3 {
-   padding-bottom: 15px;
-   padding-top: 12px;
-   background-color: darkred;
+    padding-bottom: 15px;
+    padding-top: 12px;
+    background-color: darkred;
 
 }
 
 
 #img1 {
-   margin-left: auto;
-   margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .part1 {
-   background-image: url("img/IMG_6360.JPG");
-   height: 75%;
-   width: 100%;
-   background-size: cover;
-   background-position: 0 -200;
+    background-image: url("img/IMG_6360.JPG");
+    height: 75%;
+    width: 100%;
+    background-size: cover;
+    background-position: 0 -200;
 }
 
-.part2 {    
-   background-color: darkred;
-   height: 100%;
+.part2 {
+    background-color: darkred;
+    height: 100%;
 }
 
-#newtoguitar{
-     position: relative;
-   top: 20%;
-   
-}
-
-#guitarmadeasy{
-   position:relative;
-   top:2%;
-}
-
-#learnmore{
-  
-   position:relative;
-   top:30%;
-   margin-left:auto  
-}
-
-
-
-
-.logo1{
-    width:30%;
-    margin-left:auto;
-    margin-right:auto;
-    position:absolute;
-    left:0;
-    right:0;
-    top:20%;
-}
-
-#cartoonguitar{
-    width:30%;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
+#newtoguitar {
+    position: relative;
+    top: 20%;
 
 }
 
-#scroll{
-   width:50;
-   position:absolute;
-   left:0;
-   right:0;
-   margin-left:auto;
-   margin-right:auto;
-   top:70%;
+#guitarmadeasy {
+    position: relative;
+    top: 2%;
 }
-.button{
-   
 
-   -webkit-transition-duration: 0.3s;
-  transition-duration: 0.4s;
-   background-color:darkred;
-   border-radius:200px;
-   Font-family: 'Khand', sans-serif;
-   font-size:180%;
-   color:white;
-   display:flex;
-   align-items:center;
-   justify-content:center;
-   margin-left:auto;
-   margin-right:auto;
-   width:300px;
-   position:absolute;
-   top:50%;
-   left:0;
-   right:0;
-   
-   
-}
-.button:hover{
-   background-color:brown;
+#learnmore {
+
+    position: relative;
+    top: 30%;
+    margin-left: auto
 }
 
 
-#startlearning{
+
+
+.logo1 {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20%;
+}
+
+#cartoonguitar {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
-.toplink{
-   position:relative;
-   top:3;
+#scroll {
+    width: 50;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 70%;
 }
 
-#toplink{
-   position:relative;
-   top:3;
-   
+.button {
+
+
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.4s;
+    background-color: darkred;
+    border-radius: 200px;
+    Font-family: 'Khand', sans-serif;
+    font-size: 180%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+
+
 }
+
+.button:hover {
+    background-color: brown;
+}
+
+
+#startlearning {}
+
+.toplink {
+    position: relative;
+    top: 3;
+}
+
+#toplink {
+    position: relative;
+    top: 3;
+
+}
+
+.dropdown li {
+    width: 0;
+
+}
+
+#dropdownlink {
+    background-color: darkred;
+    font-family: 'Khand', sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+}
+
+.right li {
+    right: 20px;
+}
+
+.dropdown li {
+    background-color: white;
+}
+
+#dropdown1 {
+    background-color: transparent;
+}
+
+
+/*table of contents*/
+
+.secondbar{
+    background-color:forestgreen;
+    font-size:30px;
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:5px;
+    color:white;
+    font-family:'Khand', sans-serif;
+}
+
+
+
 
