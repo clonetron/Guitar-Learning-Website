@@ -1,74 +1,72 @@
 /*index.html*/
 
 html {
-    scroll-behavior: smooth;
+   scroll-behavior: smooth;
 }
 
 #body {
 
-    /*   background-color: brown;*/
-    /*   background-image:url("img/1.JPG");*/
-    /*   background-size:cover;*/
-}
-
-#div1 {
-    margin-top: 310px;
-    margin-bottom: 200px;
 
 }
 
-#div2 {
-    margin-top: 60px;
-}
 
-.div1 {}
+
 
 .p {
-    font-size: 500%;
-    margin-left: 10%;
-    margin-right: 10%;
-    font-family: 'Neucha', cursive;
-    text-align: center;
-    color: white;
-
-
+   font-size: 500%;
+   margin-left: 10%;
+   margin-right: 10%;
+   font-family: 'Khand', cursive;
+   text-align: center;
+   color: white;
+   
 }
 
 
 .p2 {
-    font-size: 200%;
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: center;
-    font-family: 'Neucha', cursive;
-    color: white;
+   font-size: 200%;
+   margin-left: 15%;
+   margin-right: 15%;
+   text-align: center;
+   font-family: 'Khand', cursive;
+   color: white;
+   background-color:darkred;
+   position:relative;
+   
 
 }
 
-#topbar1 {
-    /*   background-color:#600505;*/
-    background-color: darkred;
-    /*   font-family: 'Neucha', cursive;*/
-    /*    font-family: 'Righteous', cursive;*/
-    /*    font-family: 'Righteous', cursive;*/
-    /*    font-family: 'Quattrocento Sans', sans-serif;*/
-    font-family: 'Khand', sans-serif;
+#sentence1{
+      padding-top:50px;
 
-    font-size: 160%;
-    color: white;
+   
+}
+
+
+#topbar1 {
+   /*   background-color:#600505;*/
+   background-color: darkred;
+   /*   font-family: 'Neucha', cursive;*/
+   /*    font-family: 'Righteous', cursive;*/
+   /*    font-family: 'Righteous', cursive;*/
+   /*    font-family: 'Quattrocento Sans', sans-serif;*/
+   font-family: 'Khand', sans-serif;
+
+   font-size: 160%;
+   color: white;
 
 }
 
 #topbar1 a:hover {
-    color: #ffd60a;
-    transition-duration: 0.3s;
+   color: #ffd60a;
+   transition-duration: 0.3s;
 }
 
 .name {
-    width: 150px;
-    position: relative;
-    max-width: 100%;
-    height: auto;
+   width: 150px;
+   position: relative;
+   max-width: 100%;
+   height: auto;
 
 
 }
@@ -76,160 +74,350 @@ html {
 
 
 #div3 {
-    padding-bottom: 15px;
-    padding-top: 12px;
-    background-color: darkred;
+   padding-bottom: 15px;
+   padding-top: 12px;
+   background-color: darkred;
+/*
+   position:fixed;
+   width:100%;
+   z-index:1;
+   
+*/
 
 }
 
 
 #img1 {
-    margin-left: auto;
-    margin-right: auto;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .part1 {
-    background-image: url("img/IMG_6360.JPG");
-    height: 75%;
-    width: 100%;
-    background-size: cover;
-    background-position: 0 -200;
+   background-image: url("img/IMG_6360.JPG");
+   height: 75%;
+   width: 100%;
+   background-size: cover;
+   background-position: 0 -200;
+   background-attachment: fixed;
+  
+   
 }
 
 .part2 {
-    background-color: darkred;
-    height: 100%;
+   background-color: darkred;
+   padding-top:30px;
+   overflow:hidden;
+   padding-bottom:30px;
+   
+   
 }
 
+.part3{
+      background-color:black;
+
+   background-image:url(img/IMG_6268%20.JPG);
+   background-size:cover;
+   background-attachment:fixed;
+   background-position: 0 -00;
+   height:70%;
+   overflow:hidden;
+   
+}
+
+.part4{
+   background-color:darkred;
+   overflow:hidden;
+
+   
+}
+
+
+.part5{
+   background-color:darkred;
+   overflow:hidden;
+
+   
+}
+#whylearn{
+   padding-top:30px;
+
+}
+
+
 #newtoguitar {
-    position: relative;
-    top: 20%;
+   position: relative;
+   top: 20%;
 
 }
 
 #guitarmadeasy {
-    position: relative;
-    top: 2%;
+   position: relative;
+   top: 2%;
 }
 
 #learnmore {
 
-    position: relative;
-    top: 30%;
-    margin-left: auto
+   position: relative;
+   top: 30%;
+   margin-left: auto
 }
 
 
 
 
 .logo1 {
-    width: 30%;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 20%;
+   width: 30%;
+   margin-left: auto;
+   margin-right: auto;
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 20%;
 }
 
 #cartoonguitar {
-    width: 30%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+   width: 13%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 
 }
 
 #scroll {
-    width: 50;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    top: 70%;
+   width: 50;
+   position: absolute;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   top: 70%;
+   transition: all 0.3s;
+
+}
+
+#scroll:hover{
+   width:60;
+   transition: all 0.3s;
 }
 
 .button {
 
 
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.4s;
-    background-color: darkred;
-    border-radius: 200px;
-    Font-family: 'Khand', sans-serif;
-    font-size: 180%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
+   background-color: darkred;
+   border-radius: 200px;
+   Font-family: 'Khand', sans-serif;
+   font-size: 180%;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+   width: 300px;
+   position: absolute;
+   top: 50%;
+   left: 0;
+   right: 0;
+   transition: all  0.6s;
+   
+
+
 
 
 }
 
 .button:hover {
-    background-color: brown;
+   background-color: orangered;
+   width: 330px;
+   transition-duration:1s;
+   transition: all 0.6s;
 }
 
 
 #startlearning {}
 
 .toplink {
-    position: relative;
-    top: 3;
+   position: relative;
+   top: 3;
 }
 
 #toplink {
-    position: relative;
-    top: 3;
+   position: relative;
+   top: 3;
 
 }
 
 .dropdown li {
-    width: 0;
+   width: 0;
 
 }
 
 #dropdownlink {
-    background-color: darkred;
-    font-family: 'Khand', sans-serif;
-    font-size: 20px;
-    position: relative;
-    left: 20px;
+   background-color: darkred;
+   font-family: 'Khand', sans-serif;
+   font-size: 20px;
+   position: relative;
+   left: 20px;
 }
 
 .right li {
-    right: 20px;
+   right: 20px;
 }
 
 .dropdown li {
-    background-color: white;
+   background-color: white;
 }
 
 #dropdown1 {
-    background-color: transparent;
+   background-color: transparent;
 }
 
 
 /*table of contents*/
 
-.secondbar{
-    background-color:forestgreen;
-    font-size:30px;
-    text-align:center;
-    padding-top:5px;
-    padding-bottom:5px;
-    color:white;
-    font-family:'Khand', sans-serif;
+.secondbar {
+   background-color: forestgreen;
+   font-size: 200%;
+   text-align: center;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   color: white;
+   font-family: 'Khand', sans-serif;
 }
 
+
+
+.ptab {
+   text-align: center;
+   font-family: "Rubik", sans-serif;
+
+}
+
+#number {
+   font-size: 200px;
+   color: white;
+   -webkit-text-stroke-width: 8px;
+   -webkit-text-stroke-color: black;
+   position:relative;
+   top:50%;
+
+}
+
+#selectortitle{
+   color:white;
+   font-family:"Khand", sans-serif;
+   font-size:50;
+   position:relative;
+   top:5%;
+   background: rgba(0, 0, 0, 0.7);
+   border-radius:20px;
+   z-index:1;
+         transition-duration: 0.5s;
+
+
+}
+
+#selectorp{
+   
+   color:white;
+   font-family:"Khand", sans-serif;
+   font-size:200%;
+   position:relative;
+   bottom:100px;
+   width:105%;
+   overflow:hidden;
+   right:15px;
+   background: rgba(0, 0, 0, 0.7);
+      visibility:hidden;
+   transition-duration:0.5s;
+   opacity:0;
+   padding-top:50%;
+   padding-left:10%;
+   padding-right:10%;
+   margin-bottom:-10px;
+   height:100%;
+   
+   
+   
+   
+}
+
+
+
+
+#dtab1 {
+   height: 91vh;
+   background-image: url(img/guitarneck.JPG);
+   background-repeat: no-repeat;
+   background-size: 300%;
+   background-position: center;
+   transition-duration: 0.6s;
+
+}
+
+
+
+#dtab1:hover {
+   display:block;
+   visibility:visible;
+   background-size: 320%;
+   transition-duration: 0.6s;
+   cursor: pointer;
+   
+
+}
+
+#dtab2 {
+   height: 91vh;
+   background-image: url(img/learning2fixed%20.png);
+   background-repeat: no-repeat;
+   background-size: 300%;
+   background-position: center;
+   transition-duration: 0.6s;
+}
+
+#dtab2:hover {
+   background-size: 320%;
+   transition-duration: 0.6s;
+   cursor: pointer;
+
+}
+
+#dtab3 {
+   height: 91vh;
+   background-image: url(img/ismailguitarfixed%20.png);
+   background-repeat: no-repeat;
+   background-size: 300%;
+   background-position: center;
+   transition-duration: 0.6s;
+}
+
+#dtab3:hover {
+   background-size: 320%;
+   transition-duration: 0.6s;
+   cursor: pointer;
+
+}
+
+
+#onclick {
+  display:block;
+  height:100%;
+
+}
+
+#onclick:hover #selectorp{
+   transition-duration: 0.5s;
+   visibility:visible;
+   opacity:1;
+   
+}
+
+#onclick:hover #selectortitle{
+   background-color: transparent;
+      transition-duration: 0.5s;
+
+}
 
 
 
