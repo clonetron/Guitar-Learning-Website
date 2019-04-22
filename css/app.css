@@ -4,12 +4,7 @@ html {
    scroll-behavior: smooth;
 }
 
-#body {
-
-
-}
-
-
+#body {}
 
 
 .p {
@@ -19,7 +14,7 @@ html {
    font-family: 'Khand', cursive;
    text-align: center;
    color: white;
-   
+
 }
 
 
@@ -30,16 +25,16 @@ html {
    text-align: center;
    font-family: 'Khand', cursive;
    color: white;
-   background-color:darkred;
-   position:relative;
-   
+   background-color: darkred;
+   position: relative;
+
 
 }
 
-#sentence1{
-      padding-top:50px;
+#sentence1 {
+   padding-top: 50px;
 
-   
+
 }
 
 
@@ -77,13 +72,12 @@ html {
    padding-bottom: 15px;
    padding-top: 12px;
    background-color: darkred;
-/*
+   /*
    position:fixed;
    width:100%;
    z-index:1;
    
 */
-
 }
 
 
@@ -99,47 +93,48 @@ html {
    background-size: cover;
    background-position: 0 -200;
    background-attachment: fixed;
-  
-   
+
+
 }
 
 .part2 {
    background-color: darkred;
-   padding-top:30px;
-   overflow:hidden;
-   padding-bottom:30px;
-   
-   
+   padding-top: 30px;
+   overflow: hidden;
+   padding-bottom: 30px;
+
+
 }
 
-.part3{
-      background-color:black;
+.part3 {
+   background-color: black;
 
-   background-image:url(img/IMG_6268%20.JPG);
-   background-size:cover;
-   background-attachment:fixed;
+   background-image: url(img/IMG_6268%20.JPG);
+   background-size: cover;
+   background-attachment: fixed;
    background-position: 0 -00;
-   height:70%;
-   overflow:hidden;
-   
+   height: 70%;
+   overflow: hidden;
+
 }
 
-.part4{
-   background-color:darkred;
-   overflow:hidden;
+.part4 {
+   background-color: darkred;
+   overflow: hidden;
 
-   
+
 }
 
 
-.part5{
-   background-color:darkred;
-   overflow:hidden;
+.part5 {
+   background-color: darkred;
+   overflow: hidden;
 
-   
+
 }
-#whylearn{
-   padding-top:30px;
+
+#whylearn {
+   padding-top: 30px;
 
 }
 
@@ -195,8 +190,8 @@ html {
 
 }
 
-#scroll:hover{
-   width:60;
+#scroll:hover {
+   width: 60;
    transition: all 0.3s;
 }
 
@@ -218,8 +213,8 @@ html {
    top: 50%;
    left: 0;
    right: 0;
-   transition: all  0.6s;
-   
+   transition: all 0.6s;
+
 
 
 
@@ -229,7 +224,7 @@ html {
 .button:hover {
    background-color: orangered;
    width: 330px;
-   transition-duration:1s;
+   transition-duration: 1s;
    transition: all 0.6s;
 }
 
@@ -298,48 +293,48 @@ html {
    color: white;
    -webkit-text-stroke-width: 8px;
    -webkit-text-stroke-color: black;
-   position:relative;
-   top:50%;
+   position: relative;
+   top: 50%;
 
 }
 
-#selectortitle{
-   color:white;
-   font-family:"Khand", sans-serif;
-   font-size:50;
-   position:relative;
-   top:5%;
+#selectortitle {
+   color: white;
+   font-family: "Khand", sans-serif;
+   font-size: 50;
+   position: relative;
+   top: 5%;
    background: rgba(0, 0, 0, 0.7);
-   border-radius:20px;
-   z-index:1;
-         transition-duration: 0.5s;
+   border-radius: 20px;
+   z-index: 1;
+   transition-duration: 0.5s;
 
 
 }
 
-#selectorp{
-   
-   color:white;
-   font-family:"Khand", sans-serif;
-   font-size:200%;
-   position:relative;
-   bottom:100px;
-   width:105%;
-   overflow:hidden;
-   right:15px;
+#selectorp {
+
+   color: white;
+   font-family: "Khand", sans-serif;
+   font-size: 200%;
+   position: relative;
+   bottom: 100px;
+   width: 105%;
+   overflow: hidden;
+   right: 15px;
    background: rgba(0, 0, 0, 0.7);
-      visibility:hidden;
-   transition-duration:0.5s;
-   opacity:0;
-   padding-top:50%;
-   padding-left:10%;
-   padding-right:10%;
-   margin-bottom:-10px;
-   height:100%;
-   
-   
-   
-   
+   visibility: hidden;
+   transition-duration: 0.5s;
+   opacity: 0;
+   padding-top: 50%;
+   padding-left: 10%;
+   padding-right: 10%;
+   margin-bottom: -10px;
+   height: 100%;
+
+
+
+
 }
 
 
@@ -358,12 +353,12 @@ html {
 
 
 #dtab1:hover {
-   display:block;
-   visibility:visible;
+   display: block;
+   visibility: visible;
    background-size: 320%;
    transition-duration: 0.6s;
    cursor: pointer;
-   
+
 
 }
 
@@ -401,23 +396,340 @@ html {
 
 
 #onclick {
-  display:block;
-  height:100%;
+   display: block;
+   height: 100%;
 
 }
 
-#onclick:hover #selectorp{
+#onclick:hover #selectorp {
    transition-duration: 0.5s;
-   visibility:visible;
-   opacity:1;
+   visibility: visible;
+   opacity: 1;
+
+}
+
+#onclick:hover #selectortitle {
+   background-color: transparent;
+   transition-duration: 0.5s;
+
+}
+
+
+/* fundamentals */
+
+.fpart1 {
+   background-color: darkred;
+   color: white;
+   text-align: center;
+   font-family: "Khand", sans-serif;
+}
+
+#thefundamentals {
+   font-size: 70px;
+}
+
+#introduction {
+   font-size: 30px;
+   padding-top: 10px;
+   margin-bottom: 0;
+   padding-bottom: 30px;
+   margin-right: 20%;
+   margin-left: 20%;
+
+
+}
+
+.fpart1 img {
+   width: 600px;
+   border-radius: 30px;
+   transition: all 1s;
+}
+
+.fpart1 img:hover {
+   cursor: pointer;
+   width: 800px;
+   transition: all 1s;
+
+}
+
+.fpart2 {
+   height: 300px;
+   transition: all 1s;
+   filter: brightness(0.80);
+
+}
+
+.fpart2:hover {
+   transition: all 1s;
+   filter: brightness(1.3);
+}
+
+#thestrings {
+   font-size: 50px;
+   margin-bottom: 0;
+}
+
+#boxlink {
+   display: block;
+   height: 100%;
+   width: 100%;
+}
+
+#guitarbox {
+   background-image: url("img/guitarneckpro.png");
+   background-size: 80%;
+   background-position: center;
+}
+
+#guitarbox:hover {
+   background-size: 90%;
+}
+
+#posturebox {
+   background-image: url(img/posturebox.png);
+   background-position: center;
+   background-size: 100%;
+}
+
+#posturebox:hover {
+   background-position: center;
+   background-size: 110%;
+
+}
+
+#stringfretbox {
+   background-image: url(img/guitarnecklabelfixed.png);
+   background-size: 100%;
+   background-position: center;
+}
+
+#stringfretbox:hover {
+   background-size: 110%;
+}
+
+#startplayingbox {
+   background-image: url(img/fingerguitar.JPG);
+   background-size: 100%;
+   background-position: center;
+}
+
+#startplayingbox:hover {
+   background-size: 110%;
+}
+
+#gettingcomfty {
+   background-color: darkred;
+   height: auto%;
+}
+
+#gettingcomfty a {
+   color: white;
+   font-family: 'Khand', sans-serif;
+   text-align: center;
+   font-size: 90px;
+   padding-top: 70px;
+   padding-bottom: 70px;
+   margin-bottom: 0;
+   height: auto;
+   transition: all 1s;
+}
+
+#gettingcomfty a:hover {
+   color: orange;
+   transition: all 1s;
+   font-size: 95px;
+}
+
+#boxtitle {
+   margin: 0;
+   font-family: 'Khand', sans-serif;
+   color: white;
+   text-align: center;
+   position: relative;
+   height: 100%;
+   padding-top: 50px;
+   font-size: 400%;
+   background-color: rgba(0, 0, 0, 0.4);
+}
+
+#strummingbox {
+   background-image: url(img/strumming.png);
+   background-position: center;
+   background-size: 100%;
+}
+
+#strummingbox:hover {
+   background-size: 110%;
+}
+
+#readchordbox {
+   background-image: url(img/chords.png);
+   background-size: 100%;
+   background-position: center;
+}
+
+#readchordbox:hover {
+   background-size: 110%;
+}
+
+#chordbox {
+   background-image: url(img/playinchords.png);
+   background-size: 100%;
+   background-position: center;
+}
+
+#chordbox:hover {
+   background-size: 110%;
+}
+
+#tablaturebox {
+   background-image: url(img/tabs.png);
+   background-size: 100%;
+   background-position: center;
+}
+
+#tablaturebox:hover {
+   background-size: 110%;
+}
+
+#songbox {
+   background-image: url(img/songs.png);
+   background-size: 100%;
+   background-position: center;
+}
+
+#songbox:hover {
+   background-size: 110%;
+}
+
+.emptyspace{
+   background-color:darkred;
+   height:auto;
+}
+
+.partsguitardiv{
+   background-color:darkred;
+   
+   text-align:center;
+   font-family:'Khand', sans-serif;
+   color:white;
+   height:auto;
+   padding-bottom:50px;
+}
+
+#partsofguitar{
+   font-size:90;
+      background-color:rgba(0,0,0,0.2);
+
    
 }
 
-#onclick:hover #selectortitle{
-   background-color: transparent;
-      transition-duration: 0.5s;
+.partsguitardiv img{
+   width:900px;
+   transition: all 1s;
+}
+
+.partsguitardiv img:hover{
+   width:1200px;
+   transition: all 1s;
 
 }
 
+#big{
+   font-size:70px;
+   margin-top:20;
+   background-color:rgba(0,0,0,0.1);
+}
+
+#explanation{
+   font-size:30px;
+   margin-left:20%;
+   margin-right:20%;
+   margin-bottom:0;
+}
+
+.returnto{
+   font-size:30px;
+   color:white;
+   background-color:darkred;
+   text-align:center;
+   font-family:'Khand', Sans-serif;
+   padding-top:5px;
+   padding-bottom:5px;
+   width:100%;
 
 
+
+      
+}
+
+#returntolink{
+   color:white;
+   text-align:center;
+   height:50%;
+      transition:all 1s;
+
+   
+}
+
+#returntolink:hover{
+   color:orange;
+   transition:all 1s;
+}
+
+.correctguitarposture{
+  background-color:darkred;
+   text-align:center;
+   font-family:'Khand', sans-serif;
+   color:white;
+   height:auto;
+}
+
+#guitarposture{
+   font-size:90;
+   background-color:rgba(0,0,0,0.2);
+   margin:0;
+}
+
+#holdguitarsentence{
+   margin-right:20%;
+   margin-left:20%;
+   font-size:30px;
+}
+
+#big1{
+   font-size:50px;
+    background-color:rgba(0,0,0,0.1);  
+}
+
+#small1{
+   margin-left:20%;
+   margin-right:20%;
+   font-size:30px;
+   margin-bottom:0;
+   padding:20px;
+   
+}
+
+.correctguitarposture img{
+   width:600px;
+   border-radius:40px;
+   margin:20px;
+   margin-top:0;
+}
+
+#fullscreenstring {
+   background-image:url(img/guitarnecklabelfixed.png);
+   height:50%;
+   background-position:center;
+   background-size:cover;
+
+}
+
+#familar{
+   font-size:30px;
+   margin-left:20%;
+   margin-right:20%;
+   margin-top:20;
+   margin-bottom:20;
+}
